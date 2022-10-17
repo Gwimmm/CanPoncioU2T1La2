@@ -8,6 +8,8 @@ public class ChaBotRunner {
         debbie.weather();
         debbie.convertFeetToMeters(13);
         debbie.favoriteNumber(4);
+        System.out.println(debbie.activity("Football"));
+        debbie.curious();
         System.out.println(debbie.goodbye());
 
 

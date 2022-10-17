@@ -37,25 +37,25 @@ public class ChatBot {
 
     // method that adds and returns the sum of three numbers
     public int addNumbers(int num1, int num2, int num3) {
+
         return num1 + num2 + num3;
     }
-
-    public void DislikedNumber ( int ewNum){
-        int distance = ewNum - number;
-        System.out.println("My least favourite number is " + ewNum);
-        System.out.println("Because it's " + distance " away from " + number);
-    }
-
-    public String smallTalk
 
     // method that RETURNS a goodbye message as a String -- note there is no printing here!
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
+    }
         public void DislikedNumber ( int ewNum){
             int distance = ewNum - number;
             System.out.println("My least favourite number is " + ewNum);
-            System.out.println("Because it's " + distance" away from " + number);
+            System.out.println("Because it's " + distance +" away from " + number);
         }
 
-    }
+        public String activity(String hobby) {
+            return ("My favorite thing to do in my free time is " + hobby);
+        }
+
+        public void curious() {
+        System.out.println("You ever just wonder why cats have 9 lives and not 7? Me too!");
+        }
 }
